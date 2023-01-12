@@ -34,6 +34,7 @@
 			<plugin>
 				<groupId>com.diffplug.spotless</groupId>
 				<artifactId>spotless-maven-plugin</artifactId>
+				<version>2.29.0</version>
 				<configuration>
 					<java>
 						<toggleOffOn />
@@ -44,7 +45,7 @@
 						</palantirJavaFormat>
 
 						<indent>
-							<tabs>false</tabs>
+							<spaces>true</spaces>
 							<spacesPerTab>2</spacesPerTab>
 						</indent>
 						<formatAnnotations />
